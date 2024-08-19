@@ -9,12 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/fiber": "^8.17.5",
+    "@types/three": "^0.167.1",
     "axios": "^1.7.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.28",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
     "react-slack-chat": "^1.15.2",
-    "slack-message-button": "file:"
+    "slack-message-button": "file:",
+    "tailwind-merge": "^2.5.2",
+    "three": "^0.167.1"
   },
   "devDependencies": {
     "eslint": "^8",
