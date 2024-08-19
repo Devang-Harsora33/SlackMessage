@@ -2,8 +2,6 @@
 
 import { useState } from "react";
 import axios from "axios";
-import { BackgroundBeams } from "@/components/ui/background-beams";
-import { ShootingStars } from "@/components/ui/shooting-stars";
 
 export default function Home() {
   const [message, setMessage] = useState("");
