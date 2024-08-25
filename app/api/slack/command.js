@@ -3,7 +3,7 @@ import axios from "axios";
 export default async function handler(req, res) {
   const { command, text, response_url, trigger_id } = req.body;
 
-  if (command === "/sendmodal") {
+  if (command === "/sendmessage") {
     try {
       await axios.post(response_url, {
         text: "Opening modal...",
