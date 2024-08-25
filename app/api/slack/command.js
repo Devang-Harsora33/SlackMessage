@@ -10,7 +10,7 @@ export default async function handler(req, res) {
         response_type: "ephemeral",
       });
       await axios.post(
-        "https://slack-message-fhf704pg8-devang-harsoras-projects.vercel.app/api/slack/openModal",
+        "https://slack-message-git-main-devang-harsoras-projects.vercel.app/api/slack/openModal",
         {
           trigger_id,
         }
