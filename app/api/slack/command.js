@@ -9,9 +9,12 @@ export default async function handler(req, res) {
         text: "Opening modal...",
         response_type: "ephemeral",
       });
-      await axios.post("https://your-app.vercel.app/api/slack/openModal", {
-        trigger_id,
-      });
+      await axios.post(
+        "https://slack-message-fhf704pg8-devang-harsoras-projects.vercel.app/api/slack/openModal",
+        {
+          trigger_id,
+        }
+      );
       res.status(200).json({ ok: true });
     } catch (error) {
       console.error(error);
